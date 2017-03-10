@@ -1,6 +1,8 @@
 # Part 1
 http://opensourcedotnetter.blogspot.com/2016/07/building-web-application-using-aspnet_31.html
+https://www.youtube.com/watch?v=wQaAACHj7w8
 
+## Install yo
 npm install -g yo generator-aspnet generator-aspnet-item
 
 
@@ -12,7 +14,7 @@ npm install -g yo generator-aspnet generator-aspnet-item
 ## Create MVC controller
     yo aspnet-item:MvcController Home
 
-##Change Empty web application to Mvc web application. 
+## Change Empty web application to Mvc web application. 
 
 Modify Startup.cs:
 public void ConfigureServices(IServiceCollection services)       
@@ -34,6 +36,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerF
 ## Add Control and View
     Add Controllers/HomeController.cs
     Add Views/Home/Index.cshtml
+    
 ## Add API
     Add Controllers/GreetingController.cs
     http://localhost:5000/api/Greeting
