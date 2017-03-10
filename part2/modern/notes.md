@@ -23,4 +23,4 @@ http://opensourcedotnetter.blogspot.com/2016/07/building-web-application-using-a
     </ItemGroup>
     
     Change Startup.cs
-    app.UseStaticFile();
+    app.UseStaticFiles();
