@@ -1,0 +1,15 @@
+{
+  "name": "modern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Huang",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.2.1",
+    "typing": "^0.1.9"
+  }
+}

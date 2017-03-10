@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "sourceRoot": "src/app",
+        "outDir": "wwwroot/app"
+    }
+}
