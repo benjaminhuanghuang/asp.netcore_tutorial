@@ -22,7 +22,7 @@ class Greeter {
         });
 
         const http = this.httpClient;
-        const response = await http.fetch("greetings");
+        const response = await http.fetch("greeting");
         var greeting = await response.json();
         this.greetingMessageViaApi = greeting.message;
         console.log(this.greetingMessageViaApi);

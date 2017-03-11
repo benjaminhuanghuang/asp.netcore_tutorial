@@ -25,10 +25,8 @@ export async function configure(aurelia: Aurelia) {
   //await aurelia.start();
   //aurelia.setRoot('app');
   //--Change to
-  const rootElement = document.body;
-  rootElement.setAttribute("aurelia-app","");
   await aurelia.start();
-  aurelia.setRoot('greeter', rootElement);
+  aurelia.setRoot('greeter');
   //--end
   // if you would like your website to work offline (Service Worker), 
   // install and enable the @easy-webpack/config-offline package in webpack.config.js and uncomment the following code:
