@@ -26,3 +26,5 @@ https://github.com/behzad888/Aurelia-Hotwater
 ## Build routing/shell
 
 ## Contact list (Left panel)
+    Using in memory contact service
+    

@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "aurelia-dialog": "github:aurelia/dialog"
+  },
+  "globalDependencies": {
+    "nprogress": "registry:dt/nprogress#0.0.0+20161119044246"
+  }
+}
