@@ -28,3 +28,5 @@ https://github.com/behzad888/Aurelia-Hotwater
 ## Contact list (Left panel)
     Using in memory contact service
     
+## Dialog
+    $ npm install aurelia-dialog --save-dev
