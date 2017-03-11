@@ -2,9 +2,12 @@
     "compilerOptions": {
         "target": "es5",
         "module": "commonjs",
-        "inlineSourceMap": true,
-        "inlineSources": true,
+        "sourceMap": true,
         "sourceRoot": "src/app",
         "outDir": "wwwroot/app"
-    }
+    },
+    "exclude": [
+        "node_modules",
+        "bower_components"
+    ]
 }

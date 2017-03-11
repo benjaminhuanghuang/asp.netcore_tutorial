@@ -1,14 +1,12 @@
 class Greeter {
     constructor(private message: string) {
     }
-
     sayHello() {
-        console.log(`hello ${this.message}`);
+        console.log(`Hello ${this.message} from TypeScript!`);
     }
-
-    get greetingMessage(): string {
-        return `hello ${this.message}`;
+    get greetingMessage() : string {
+        return `Hello ${this.message} from TypeScript!`;
     }
 }
 
-export { Greeter }
+export { Greeter };

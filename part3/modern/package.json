@@ -9,6 +9,7 @@
   "author": "Benjamin Huang",
   "license": "ISC",
   "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
     "typescript": "^2.2.1",
     "typing": "^0.1.9",
     "webpack": "^2.2.1"

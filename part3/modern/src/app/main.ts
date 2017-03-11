@@ -1,4 +1,4 @@
-import { Greeter } from "./Greeter"
+import { Greeter } from "./Greeter";
 
 export class Main{
     private greeter : Greeter;

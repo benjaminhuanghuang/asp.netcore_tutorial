@@ -9,3 +9,7 @@ https://github.com/rajajhansi/aspnetcore-aurelia-tutorial
 
 ## bundle all js into one js
     $ webpack ./wwwroot/app/main.js ./wwwroot/app/bundle.js
+
+## Use awesome-typescript-loader to translate ts files. No need run tsc any more.
+    $ npm install awesome-typescript-loader --save-dev
+    create config file
