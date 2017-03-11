@@ -4,20 +4,20 @@ export class Index {
     router: Router;
 
     configureRouter(config: RouterConfiguration, router: Router) {
-        config.title = "Aurelia Contact Manager";
+        config.title = "Aurelia Tasks Manager";
         config.map([
             {
                 route: "",
-                moduleId: "contact-manaer/no-selection",
+                moduleId: "task-manager/no-selection",
                 nav: true,
-                name: "contactmanager",
-                title: "Contact Manager"
+                name: "taskmanager",
+                title: "Task Manager"
             },
             {
                 route: "contacts/:id",
-                moduleId: "contact-manager/contact-detail",
+                moduleId: "task-manager/contact-detail",
                 nave: true,
-                name: "contacts"
+                name: "tasks"
             }
         ]);
         this.router = router;
