@@ -173,3 +173,123 @@ div.au-stagger {
     opacity: 1;
   }
 }
+
+/* Custom styles */
+.table-hover>tbody>tr:hover>td{
+    background-color: rgba(95, 208, 242, 0.89) ;
+    color: #FFF;
+}
+.table-hover>tbody>tr.selected {
+  background-color: #6BAED7!important;
+  color: #FFF;
+}
+.table-hover>tbody>tr.selected>td:first-child {  
+  box-shadow: inset 5px 0px 0px 0px #002e6a;
+}
+.table-hover>thead>tr {
+  text-transform: uppercase;
+}
+.strike-out {
+  text-decoration: line-through;
+}
+.dropdown-menu.dropdown-select-menu > li > a > .fa {
+  visibility: hidden;
+}
+
+.dropdown-menu.dropdown-select-menu > li > a.selected > .fa {
+  visibility: visible;
+}
+
+body { padding-top: 70px; }
+
+section {
+  margin: 0 20px;
+}
+
+a:focus {
+  outline: none;
+}
+
+.navbar-nav li.loader {
+    margin: 12px 24px 0 6px;
+}
+
+.no-selection {
+  margin: 20px;
+}
+
+.contact-list {
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.panel {
+  margin: 20px;
+}
+
+.button-bar {
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-top: 1px solid #ddd;
+  background: white;
+}
+
+.button-bar > button {
+  float: right;
+  margin: 20px;
+}
+
+li.list-group-item {
+  list-style: none;
+}
+
+li.list-group-item > a {
+  text-decoration: none;
+}
+
+li.list-group-item.active > a {
+  color: white;
+}
+.search-box {
+  display: inline-block;
+  width: 100%;
+  border-radius: 3px;
+  padding: 4px 55px 4px 15px;
+  position: relative;
+  background: #fff;
+  border: 1px solid #ddd;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.search-box.hovered, .search-box:hover, .search-box:active {
+  border: 1px solid #aaa;
+}
+.search-box input[type=text] {
+  border: none;
+  box-shadow: none;
+  display: inline-block;
+  padding: 0;
+  background: transparent;
+}
+.search-box input[type=text]:hover, .search-box input[type=text]:focus, .search-box input[type=text]:active {
+  box-shadow: none;
+}
+.search-box .search-btn {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  color: #aaa;
+  border-radius: 3px;
+  font-size: 21px;
+  padding: 5px 10px 1px;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.search-box .search-btn:hover {
+  color: #fff;
+  background-color: #337ab7;
+}
